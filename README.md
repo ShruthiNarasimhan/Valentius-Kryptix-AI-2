@@ -6,14 +6,11 @@
 
 ## Experiments
 
-### 1. Zero-shot vs Few-shot Prompting
-Comparison of sentiment classification using zero-shot and few-shot techniques.
-
-### 2. Direct vs Step-by-Step Prompting
-Comparison of prompting strategies for solving a multi-step mathematical problem.
-
-### 3. Structured JSON Output
-Invoice information extraction using JSON schema and structured outputs.
+| No. | Experiment | Technique |
+|---|---|---|
+| 1 | Sentiment Classification | Zero-shot vs Few-shot |
+| 2 | Mathematical Problem Solving | Direct vs Step-by-Step |
+| 3 | Invoice Information Extraction | Structured JSON Output |
 
 ## Project Structure
 
@@ -28,17 +25,19 @@ AI-2-Prompt-Engineering/
 │   ├── direct-prompt.md
 │   └── chain-of-thought.md
 └── experiment-3/
-    └── schema.json
+    ├── schema.json
+    └── structured-output.md
 ```
 
-## Tools Used
+## Final Report
+
+[View Final Experiment Report](./final-report.md)
+
+## Technologies Used
 
 - Google Gemini
 - Google AI Studio
 - JSON Schema
+- Markdown
 - Visual Studio Code
 - Git and GitHub
-
-## Final Report
-
-See [Final Experiment Report](./final-report.md) for the methodology, results, observations and conclusions of all three experiments.
